@@ -1,0 +1,59 @@
+Задание 1
+a = input()
+print(a[2]) 
+print(a[-2]) 
+print(a[:5]) 
+print(a[:-2]) 
+print(a[::2]) 
+print(a[1::2]) 
+print(a[::-1]) 
+print(a[::-2]) 
+print(len(a))
+
+Задание 2
+a = input()
+print(a.count(' ') + 1)
+
+Задание 3
+a = input() 
+print(a[(len(a) + 1) // 2] + a[:(len(a) + 1) // 2])
+
+Задание 4
+a = input() 
+b = a[:stroka.find(' ')] 
+c = a[stroka.find(' ') + 1] 
+print(b + ' ' + c)
+
+Задание 5
+a = input() 
+b = a.find('f') 
+c = a.rfind('f') 
+if b == -1: print() 
+elif a == c: print(b) 
+else: print(b, c)
+
+Задание 8
+a = input()
+print(a.replace('1', 'one'))
+
+Задание 9
+a = input()
+print(a.replace('@', ''))
+
+Задание 10
+a = input() 
+b = '' 
+for i in range(len(a)): 
+  if i % 3 != 0: 
+    b = b + a[i] 
+    print(b)
+
+Задание 11
+from math import*
+def rast(x1, y1, x2, y2): 
+return sqrt((x1 - x2) ** 2 + (y1 - y2) ** 2)
+x1 = float(input()) 
+x2 = float(input()) 
+y1 = float(input())
+y2 = float(input()) 
+print(rast(x1, x2, y1, y2))
