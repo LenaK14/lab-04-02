@@ -1,6 +1,4 @@
-.
-
-class Person:
+1)class Person:
     def __init__(self, name: str, age: int, gender: str):
         self.name = name
         self.age = age
@@ -8,7 +6,7 @@ class Person:
 
     def __str__(self):
         return f"{self.name}, {self.age} years old, {self.gender}"
-        2)class Car:
+2)class Car:
 
     def __init__(self, make: str, model: str, year: int):
 
@@ -21,7 +19,7 @@ class Person:
     def __str__(self):
 
         return f"{self.make} {self.model} ({self.year})"
-        3)class BankAccount:
+ 3)class BankAccount:
     def __init__(self, account_number: str, balance: float, owner_name: str):
         self.account_number = account_number
         self.balance = balance
@@ -29,7 +27,7 @@ class Person:
 
     def __str__(self):
         return f"Account Number: {self.account_number}\nOwner: {self.owner_name}\nBalance: {self.balance}"
-        4)class Book:
+ 4)class Book:
 
     def __init__(self, title: str, author: str, num_pages: int):
 
@@ -42,7 +40,7 @@ class Person:
     def __str__(self):
 
         вернуть f"{self.title} от {self.author}, {self.num_pages} страниц"
-        5)class Film:
+5)class Film:
 
     def __init__(self, title: str, director: str, genre: str):
 
