@@ -1,0 +1,58 @@
+.
+
+class Person:
+    def __init__(self, name: str, age: int, gender: str):
+        self.name = name
+        self.age = age
+        self.gender = gender
+
+    def __str__(self):
+        return f"{self.name}, {self.age} years old, {self.gender}"
+        2)class Car:
+
+    def __init__(self, make: str, model: str, year: int):
+
+        self.make = make
+
+        self.model = model
+
+        self.year = year
+
+    def __str__(self):
+
+        return f"{self.make} {self.model} ({self.year})"
+        3)class BankAccount:
+    def __init__(self, account_number: str, balance: float, owner_name: str):
+        self.account_number = account_number
+        self.balance = balance
+        self.owner_name = owner_name
+
+    def __str__(self):
+        return f"Account Number: {self.account_number}\nOwner: {self.owner_name}\nBalance: {self.balance}"
+        4)class Book:
+
+    def __init__(self, title: str, author: str, num_pages: int):
+
+        self.title = title
+
+        self.author = author
+
+        self.num_pages = num_pages
+
+    def __str__(self):
+
+        вернуть f"{self.title} от {self.author}, {self.num_pages} страниц"
+        5)class Film:
+
+    def __init__(self, title: str, director: str, genre: str):
+
+        self.title = title
+
+        self.director = director
+
+        self.genre = genre
+
+    def __str__(self):
+
+        return f"{self.title}, directed by {self.director}, {self.genre} genre"
+        6)
